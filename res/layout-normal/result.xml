@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back" >
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+     <!-- <com.google.ads.AdView android:id="@+id/adView_result"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         ads:adUnitId="a150f2cc758ed30"
+                         ads:adSize="BANNER"
+                         />  -->   
+<TextView
+    android:id="@+id/result_heading" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="@string/result"
+    android:textSize="35dp"
+    android:layout_marginTop="12dp"
+    android:textColor="@android:color/black"/>
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="5dp">    
+    <TextView 
+        android:id="@+id/correctanswer_heading"
+    android:layout_width="wrap_content"    
+    android:layout_height="wrap_content"
+    android:text="@string/correctanswers"
+    android:layout_margin="10dp"
+    android:textSize="24dp"
+    android:textColor="@color/DarkGreen"
+    android:layout_alignParentLeft="true"/>
+    
+     <TextView 
+         android:id="@+id/correctanswerText"
+    android:layout_width="wrap_content"    
+    android:layout_height="wrap_content"
+    android:text="@string/correctanswers"
+    android:layout_margin="10dp"
+    android:textSize="24dp"
+    android:layout_alignParentRight="true"/>
+    
+</RelativeLayout>
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">    
+    <TextView 
+       android:id="@+id/wronganswerText_heading" 
+    android:layout_width="wrap_content"    
+    android:layout_height="wrap_content"
+    android:text="@string/wronganswers"
+    android:layout_margin="10dp"
+    android:textSize="24dp"
+     android:textColor="@color/Tomato"
+    android:layout_alignParentLeft="true"/>
+    
+     <TextView 
+         android:id="@+id/wronganswerText"
+    android:layout_width="wrap_content"    
+    android:layout_height="wrap_content"
+    android:text="@string/correctanswers"
+    android:layout_margin="10dp"
+    android:textSize="24dp"
+    android:layout_alignParentRight="true"/>
+    
+</RelativeLayout>
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">    
+    <TextView 
+        android:id="@+id/unattemptedanswerText_Heading"
+    android:layout_width="wrap_content"    
+    android:layout_height="wrap_content"
+    android:text="@string/unattempted"
+    android:layout_margin="10dp"
+    android:textSize="24dp"
+     android:textColor="@color/White"
+    android:layout_alignParentLeft="true"/>
+    
+     <TextView 
+         android:id="@+id/unattemptedanswerText"
+    android:layout_width="wrap_content"    
+    android:layout_height="wrap_content"
+    android:text="@string/correctanswers"
+    android:layout_margin="10dp"
+    android:textSize="24dp"
+    android:layout_alignParentRight="true"/>
+    
+</RelativeLayout>
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">    
+    <TextView 
+        android:id="@+id/resulttext_Heading"
+    android:layout_width="wrap_content"    
+    android:layout_height="wrap_content"
+    android:text="@string/finalscore"
+    android:textSize="24dp"
+    android:layout_margin="10dp"
+    android:layout_alignParentLeft="true"/>
+    
+     <TextView 
+         android:id="@+id/resulttext"
+    android:layout_width="wrap_content"    
+    android:layout_height="wrap_content"
+    android:text="@string/correctanswers"
+    android:textSize="24dp"
+    android:layout_margin="10dp"
+    android:layout_alignParentRight="true"
+   />
+    
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp" >
+
+    <Button
+        android:id="@+id/reviewbutton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:textSize="20dp"
+        android:background="@drawable/answer"
+        android:text="@string/trying" />
+   
+
+    <Button
+        android:id="@+id/startpageButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/answer"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:text="@string/Menu" />
+
+</RelativeLayout>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp" >
+ <Button
+        android:id="@+id/reviewlistbutton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/answer"
+        android:textSize="20dp"
+        android:text="@string/review" />
+ <Spinner 
+     android:id="@+id/review_option_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:drawSelectorOnTop="true"
+        android:layout_alignParentRight="true"
+        android:prompt="@string/spinner_1_color_prompt"/>
+ </RelativeLayout>
+ </LinearLayout>
+</ScrollView>

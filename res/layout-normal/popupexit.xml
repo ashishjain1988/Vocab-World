@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="220dp"
+    android:layout_height="120dp"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:background="@color/text_shadow">
+    
+    <TextView 
+        android:id="@+id/Dialog_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/quittest"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />   
+    
+   <LinearLayout
+   android:id="@+id/popupcallconfirm"
+   android:layout_marginBottom="20dp"   
+   android:orientation="horizontal"   
+   android:layout_width="180dp"  
+   android:layout_height="wrap_content"
+   android:background="@android:color/transparent"
+   android:layout_gravity="center_horizontal"
+   >
+        <Button 
+        android:id="@+id/button_yes"
+        android:layout_width="80dp"
+        android:layout_height="30dp"  
+        android:textColor="#FFFFFF"
+        android:background="@color/green"
+        android:text="@string/yes" 
+        android:textStyle="bold">
+        </Button>
+        
+         <Button 
+         android:id="@+id/button_no" 
+         android:layout_width="80dp"
+         android:layout_height="30dp"
+         android:layout_marginLeft="20dp"
+         android:textColor="#FFFFFF"
+         android:background="@color/active_blue"
+         android:text="@string/no"
+         android:textStyle="bold"
+         >
+         </Button>
+   </LinearLayout>
+    
+
+</LinearLayout>

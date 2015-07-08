@@ -1,0 +1,52 @@
+<resources>
+
+    <string name="app_name">VocabWorld</string>
+    <string name="Anotnym_test">Antonym Test</string>
+    <string name="Synonym_test">Synonym Test</string>
+    <string name="Analogies_test">Analogies Test</string>
+    <string name="Help">Instructions</string>
+    <string name="About">Scores</string>
+    <string name="Exit">Exit</string>
+    <string name="More">Get Premium</string>
+    <string name="Options">Options Are:</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="result">Final Score</string>
+    <string name="correctanswers">Correct Questions:</string>
+    <string name="wronganswers">Wrong Questions:</string>
+    <string name="unattempted">Unattempted Questions:</string>
+    <string name="finalscore">Final Score:</string>
+    <string name="review">Review</string>
+    <string name="Menu">Menu</string>
+    <string name="Welcome">Welcome</string>
+    <string name="to">To</string>
+    <string name="vocab">Vocab World</string>
+    <string name="Description">Description: </string>
+    <string name="meaning">Meaning</string>
+    <string name="usage">Usage</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="quittest">Quit Vocab World?</string>
+    <string name="quitthetest">Quit Test?</string>
+    <string name="entername">Enter Your Name</string>
+    <string name="name">Name</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="trying">Try Again</string>
+    <string name="spinner_1_color_prompt">Choose the type of view</string>
+    <string name="exit_normal">Exit</string>
+    <string name="exit_small">Exit</string>
+    <string name="exit_xlarge">Exit</string>
+    <string name="instructions_1">This Application consists of Antonym test and Synonym test.</string>
+    <string name="instructions_2">Each test consists of 10 multiple choice questions with 5 answers selected randomly from over 200 questions.</string>
+    <string name="instructions_3">The time that the player will get is 2 minutes to complete the quiz.</string>
+    <string name="instructions_4">All the correct answer gets 3 marks, incorrect answer gets -1 and unanswered gets 0.</string>
+    <string name="instructions_5">The top 10 scores will get stored for all the test separately.</string>
+    <string name="instructions_6">The player can review the test with correct answers and their meaning after getting their results.</string>
+    <string name="instructions_7">Review can be done in Listview or 1 on 1 view.</string>
+     <string name="instructions_8">There is scroll bar so that you can fully view all the pages.</string>
+    <string name="flashcard">Flash Cards</string>
+    <string name="show_meaning">click to see usage</string>
+    
+
+</resources>

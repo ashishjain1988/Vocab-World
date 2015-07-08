@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:background="@drawable/clouds_ng" >
+    
+<TextView
+    android:id="@+id/result_heading" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="@string/result"
+    android:textSize="30dp"
+    android:textColor="@android:color/black"/>
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">    
+    <TextView 
+        android:id="@+id/correctanswer_heading"
+    android:layout_width="wrap_content"    
+    android:layout_height="wrap_content"
+    android:text="@string/correctanswers"
+    android:layout_margin="15dp"
+    android:textSize="20dp"
+    android:layout_alignParentLeft="true"/>
+    
+     <TextView 
+         android:id="@+id/correctanswerText"
+    android:layout_width="wrap_content"    
+    android:layout_height="wrap_content"
+    android:text="@string/correctanswers"
+    android:layout_margin="15dp"
+    android:textSize="20dp"
+    android:layout_alignParentRight="true"/>
+    
+</RelativeLayout>
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">    
+    <TextView 
+       android:id="@+id/wronganswerText_heading" 
+    android:layout_width="wrap_content"    
+    android:layout_height="wrap_content"
+    android:text="@string/wronganswers"
+    android:layout_margin="15dp"
+    android:textSize="20dp"
+    android:layout_alignParentLeft="true"/>
+    
+     <TextView 
+         android:id="@+id/wronganswerText"
+    android:layout_width="wrap_content"    
+    android:layout_height="wrap_content"
+    android:text="@string/correctanswers"
+    android:layout_margin="15dp"
+    android:textSize="20dp"
+    android:layout_alignParentRight="true"/>
+    
+</RelativeLayout>
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">    
+    <TextView 
+        android:id="@+id/unattemptedanswerText_Heading"
+    android:layout_width="wrap_content"    
+    android:layout_height="wrap_content"
+    android:text="@string/unattempted"
+    android:layout_margin="15dp"
+    android:textSize="20dp"
+    android:layout_alignParentLeft="true"/>
+    
+     <TextView 
+         android:id="@+id/unattemptedanswerText"
+    android:layout_width="wrap_content"    
+    android:layout_height="wrap_content"
+    android:text="@string/correctanswers"
+    android:layout_margin="15dp"
+    android:textSize="20dp"
+    android:layout_alignParentRight="true"/>
+    
+</RelativeLayout>
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">    
+    <TextView 
+        android:id="@+id/resulttext_Heading"
+    android:layout_width="wrap_content"    
+    android:layout_height="wrap_content"
+    android:text="@string/finalscore"
+    android:textSize="20dp"
+    android:layout_margin="15dp"
+    android:layout_alignParentLeft="true"/>
+    
+     <TextView 
+         android:id="@+id/resulttext"
+    android:layout_width="wrap_content"    
+    android:layout_height="wrap_content"
+    android:text="@string/correctanswers"
+    android:textSize="20dp"
+    android:layout_margin="15dp"
+    android:layout_alignParentRight="true"
+   />
+    
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp" >
+
+    <Button
+        android:id="@+id/reviewbutton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:layout_marginRight="25dp"
+        android:textSize="20dp"
+        android:background="@drawable/answer"
+        android:text="@string/trying" />
+   
+
+    <Button
+        android:id="@+id/startpageButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/answer"
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"
+        android:text="@string/Menu" />
+
+</RelativeLayout>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp" >
+ <Button
+        android:id="@+id/reviewlistbutton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/answer"
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"
+        android:text="@string/review" />
+ <Spinner 
+     android:id="@+id/review_option_spinner"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="50dp"
+        android:drawSelectorOnTop="true"
+        android:layout_alignParentRight="true"
+        android:prompt="@string/spinner_1_color_prompt"/>
+ </RelativeLayout>
+</LinearLayout>
